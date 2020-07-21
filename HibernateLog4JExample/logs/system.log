@@ -1,0 +1,36 @@
+2015-04-20 22:47:00,684 +1000 [main] INFO  (JavaReflectionManager.java:66) - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2015-04-20 22:47:00,696 +1000 [main] INFO  (Version.java:54) - HHH000412: Hibernate Core {4.3.5.Final}
+2015-04-20 22:47:00,701 +1000 [main] INFO  (Environment.java:239) - HHH000206: hibernate.properties not found
+2015-04-20 22:47:00,703 +1000 [main] INFO  (Environment.java:346) - HHH000021: Bytecode provider name : javassist
+2015-04-20 22:47:00,723 +1000 [main] INFO  (Configuration.java:2073) - HHH000043: Configuring from resource: hibernate.cfg.xml
+2015-04-20 22:47:00,723 +1000 [main] INFO  (Configuration.java:2092) - HHH000040: Configuration resource: hibernate.cfg.xml
+2015-04-20 22:47:00,771 +1000 [main] INFO  (Configuration.java:757) - HHH000221: Reading mappings from resource: employee.hbm.xml
+2015-04-20 22:47:03,856 +1000 [main] INFO  (Configuration.java:2214) - HHH000041: Configured SessionFactory: null
+2015-04-20 22:47:03,978 +1000 [main] WARN  (DriverManagerConnectionProviderImpl.java:93) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-04-20 22:47:03,986 +1000 [main] INFO  (DriverManagerConnectionProviderImpl.java:166) - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/test]
+2015-04-20 22:47:03,986 +1000 [main] INFO  (DriverManagerConnectionProviderImpl.java:175) - HHH000046: Connection properties: {user=root, password=****}
+2015-04-20 22:47:03,987 +1000 [main] INFO  (DriverManagerConnectionProviderImpl.java:180) - HHH000006: Autocommit mode: false
+2015-04-20 22:47:03,989 +1000 [main] INFO  (DriverManagerConnectionProviderImpl.java:102) - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-04-20 22:47:04,183 +1000 [main] INFO  (Dialect.java:145) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-04-20 22:47:04,191 +1000 [main] INFO  (LobCreatorBuilder.java:97) - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-04-20 22:47:04,245 +1000 [main] INFO  (TransactionFactoryInitiator.java:62) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-04-20 22:47:04,250 +1000 [main] INFO  (ASTQueryTranslatorFactory.java:47) - HHH000397: Using ASTQueryTranslatorFactory
+2015-04-20 22:47:05,262 +1000 [main] INFO  (DriverManagerConnectionProviderImpl.java:281) - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/test]
+2015-04-20 22:48:49,824 +1000 [main] INFO  (JavaReflectionManager.java:66) - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2015-04-20 22:48:49,833 +1000 [main] INFO  (Version.java:54) - HHH000412: Hibernate Core {4.3.5.Final}
+2015-04-20 22:48:49,837 +1000 [main] INFO  (Environment.java:239) - HHH000206: hibernate.properties not found
+2015-04-20 22:48:49,839 +1000 [main] INFO  (Environment.java:346) - HHH000021: Bytecode provider name : javassist
+2015-04-20 22:48:49,858 +1000 [main] INFO  (Configuration.java:2073) - HHH000043: Configuring from resource: hibernate.cfg.xml
+2015-04-20 22:48:49,858 +1000 [main] INFO  (Configuration.java:2092) - HHH000040: Configuration resource: hibernate.cfg.xml
+2015-04-20 22:48:49,899 +1000 [main] INFO  (Configuration.java:757) - HHH000221: Reading mappings from resource: employee.hbm.xml
+2015-04-20 22:48:51,631 +1000 [main] INFO  (Configuration.java:2214) - HHH000041: Configured SessionFactory: null
+2015-04-20 22:48:51,740 +1000 [main] WARN  (DriverManagerConnectionProviderImpl.java:93) - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-04-20 22:48:51,747 +1000 [main] INFO  (DriverManagerConnectionProviderImpl.java:166) - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/test]
+2015-04-20 22:48:51,747 +1000 [main] INFO  (DriverManagerConnectionProviderImpl.java:175) - HHH000046: Connection properties: {user=root, password=****}
+2015-04-20 22:48:51,748 +1000 [main] INFO  (DriverManagerConnectionProviderImpl.java:180) - HHH000006: Autocommit mode: false
+2015-04-20 22:48:51,750 +1000 [main] INFO  (DriverManagerConnectionProviderImpl.java:102) - HHH000115: Hibernate connection pool size: 20 (min=1)
+2015-04-20 22:48:51,922 +1000 [main] INFO  (Dialect.java:145) - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-04-20 22:48:51,930 +1000 [main] INFO  (LobCreatorBuilder.java:97) - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+2015-04-20 22:48:52,001 +1000 [main] INFO  (TransactionFactoryInitiator.java:62) - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2015-04-20 22:48:52,007 +1000 [main] INFO  (ASTQueryTranslatorFactory.java:47) - HHH000397: Using ASTQueryTranslatorFactory
+2015-04-20 22:48:52,994 +1000 [main] INFO  (DriverManagerConnectionProviderImpl.java:281) - HHH000030: Cleaning up connection pool [jdbc:mysql://localhost:3306/test]

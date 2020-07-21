@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM "classpath://org/hibernate/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.password">1729</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/test</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+
+		<!-- <property name="hibernate.default_schema">SID (test)</property> -->
+
+		<property name="hibernate.current_session_context_class">thread</property>
+
+		<property name="hibernate.show_sql">true</property>
+
+		<!-- http://wiki.apache.org/commons/DBCP/Hibernate http://www.mkyong.com/hibernate/how-to-configure-dbcp-connection-pool-in-hibernate/ -->
+		<property name="hibernate.connection.provider_class">com.jolbox.bonecp.provider.BoneCPConnectionProvider
+		</property>
+		<property name="hibernate.dbcp.maxActive">8</property>
+		<property name="hibernate.dbcp.maxIdle">8</property>
+		<property name="hibernate.dbcp.maxWait">1000 * 60 * 30</property>
+		<property name="hibernate.dbcp.whenExhaustedAction">1</property>
+		<property name="hibernate.dbcp.ps.maxActive">8</property>
+		<property name="hibernate.dbcp.ps.maxIdle">8</property>
+		<property name="hibernate.dbcp.ps.maxWait">1000 * 60 * 30</property>
+		<property name="hibernate.dbcp.ps.whenExhaustedAction">1</property>
+
+		<mapping resource="employee.hbm.xml" />
+	</session-factory>
+</hibernate-configuration>

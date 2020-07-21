@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.hibernate.model.Student" table="student" catalog="test">
+		<id name="studentId" type="java.lang.Integer">
+			<column name="STUDENT_ID" />
+			<generator class="identity" />
+		</id>
+		<property name="studentName" type="string">
+			<column name="STUDENT_NAME" length="10" not-null="true"
+				unique="true" />
+		</property>
+		<property name="studentAge" type="string">
+			<column name="STUDENT_Age" length="20" not-null="true" unique="true" />
+		</property>
+
+		<filter name="studentFilter" condition="STUDENT_ID >= :studentFilterID" />
+	</class>
+
+	<filter-def name="studentFilter">
+		<filter-param name="studentFilterID" type="java.lang.Integer" />
+	</filter-def>
+
+</hibernate-mapping>

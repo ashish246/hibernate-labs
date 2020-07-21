@@ -1,0 +1,8 @@
+2015-04-20 22:47:05,254 +1000 [main] INFO  (HibernateLog4JExample.java:41) - List of Employees::1,Pankaj
+2015-04-20 22:47:05,254 +1000 [main] INFO  (HibernateLog4JExample.java:41) - List of Employees::19,Ashish
+2015-04-20 22:47:05,254 +1000 [main] INFO  (HibernateLog4JExample.java:41) - List of Employees::20,Ajayta
+2015-04-20 22:47:05,264 +1000 [main] INFO  (HibernateLog4JExample.java:47) - DONE
+2015-04-20 22:48:52,986 +1000 [main] INFO  (HibernateLog4JExample.java:41) - List of Employees::1,Pankaj
+2015-04-20 22:48:52,986 +1000 [main] INFO  (HibernateLog4JExample.java:41) - List of Employees::19,Ashish
+2015-04-20 22:48:52,986 +1000 [main] INFO  (HibernateLog4JExample.java:41) - List of Employees::20,Ajayta
+2015-04-20 22:48:52,995 +1000 [main] INFO  (HibernateLog4JExample.java:47) - DONE
